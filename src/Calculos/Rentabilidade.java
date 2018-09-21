@@ -9,7 +9,7 @@ public class Rentabilidade {
         return tempo * aInicial * tJuros;
     }
 
-    public float calculoImpostoRenda(){
-        return 3.14f;
+    public float calculoImpostoRenda(float aliquota, float rendBruto){
+        return rendBruto * aliquota;
     }
 }

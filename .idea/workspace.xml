@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cad5247-9a87-4aa8-893c-9d074ed88865" name="Default Changelist" comment="" />
+    <list default="true" id="8cad5247-9a87-4aa8-893c-9d074ed88865" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Calculos/Rentabilidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculos/Rentabilidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/RendimentoLiquidoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/RendimentoLiquidoTeste.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +16,12 @@
     <session id="-1391941538">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1401" />
+          <entry key="java" value="1485" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1401" />
+          <entry key="JAVA" value="1485" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -59,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tests/RendimentoLiquidoTeste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="135">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,13 +74,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Calculos/Rentabilidade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="240">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <element signature="e#236#237#0" expanded="true" />
                 <element signature="e#278#279#0" expanded="true" />
                 <element signature="e#248#249#0" expanded="true" />
                 <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,8 +104,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Tests/RendimentoBrutoTestes.java" />
-        <option value="$PROJECT_DIR$/src/Calculos/Rentabilidade.java" />
         <option value="$PROJECT_DIR$/src/Tests/ImpostoRendaTeste.java" />
+        <option value="$PROJECT_DIR$/src/Calculos/Rentabilidade.java" />
         <option value="$PROJECT_DIR$/src/Tests/RendimentoLiquidoTeste.java" />
       </list>
     </option>
@@ -162,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ImpostoRendaTeste">
+  <component name="RunManager" selected="JUnit.RendimentoLiquidoTeste">
     <configuration name="ImpostoRendaTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2a_avaliacaoDAS_2018_2" />
       <extension name="coverage">
@@ -223,7 +228,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RendimentoBrutoTestes.gerarRendimentoBrutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RendimentoLiquidoTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2a_avaliacaoDAS_2018_2" />
       <extension name="coverage">
         <pattern>
@@ -232,27 +237,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.RendimentoBrutoTestes" />
-      <option name="METHOD_NAME" value="gerarRendimentoBrutoTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RendimentoLiquidoTeste" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RendimentoBrutoTestes.gerarRendimentoBrutoTest" />
       <item itemvalue="JUnit.RendimentoBrutoTestes" />
       <item itemvalue="JUnit.ImpostoRendaTeste.gerarImpostoRendaTest" />
       <item itemvalue="JUnit.ImpostoRendaTeste" />
       <item itemvalue="JUnit.ImpostoRendaTeste.gerarImpostoRendaTest2" />
+      <item itemvalue="JUnit.RendimentoLiquidoTeste" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RendimentoLiquidoTeste" />
         <item itemvalue="JUnit.ImpostoRendaTeste" />
         <item itemvalue="JUnit.ImpostoRendaTeste.gerarImpostoRendaTest2" />
         <item itemvalue="JUnit.ImpostoRendaTeste.gerarImpostoRendaTest" />
         <item itemvalue="JUnit.RendimentoBrutoTestes" />
-        <item itemvalue="JUnit.RendimentoBrutoTestes.gerarRendimentoBrutoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -353,19 +356,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Calculos/Rentabilidade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/RendimentoBrutoTestes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -383,10 +373,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculos/Rentabilidade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/RendimentoLiquidoTeste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

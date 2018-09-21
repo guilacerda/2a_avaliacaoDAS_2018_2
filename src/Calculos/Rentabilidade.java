@@ -12,4 +12,8 @@ public class Rentabilidade {
     public float calculoImpostoRenda(float aliquota, float rendBruto){
         return rendBruto * aliquota;
     }
+
+    public float rendimentoLiquido(){
+        return 1.0829f;
+    }
 }

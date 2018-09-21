@@ -13,7 +13,10 @@ public class Rentabilidade {
         return rendBruto * aliquota;
     }
 
-    public float rendimentoLiquido(){
-        return 1.0829f;
+    public float rendimentoLiquido(float rendimentoBruto, float impostoRenda, float vInicial){
+        float vFinal = vInicial + (rendimentoBruto - impostoRenda);
+        float resultado = ((vFinal/vInicial) * 100) - 100;
+
+        return resultado;
     }
 }

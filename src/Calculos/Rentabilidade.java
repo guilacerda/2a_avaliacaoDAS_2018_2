@@ -5,7 +5,7 @@ public class Rentabilidade {
 
     }
 
-    public float rendimentoBruto(){
-        return 13.97f;
+    public float rendimentoBruto(float tempo, float aInicial, float tJuros){
+        return tempo * aInicial * tJuros;
     }
 }

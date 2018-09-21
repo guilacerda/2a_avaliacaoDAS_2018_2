@@ -156,7 +156,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ImpostoRendaTeste.gerarImpostoRendaTest">
+  <component name="RunManager" selected="JUnit.ImpostoRendaTeste">
+    <configuration name="ImpostoRendaTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2a_avaliacaoDAS_2018_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ImpostoRendaTeste" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImpostoRendaTeste.gerarImpostoRendaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2a_avaliacaoDAS_2018_2" />
       <extension name="coverage">
@@ -207,9 +221,11 @@
       <item itemvalue="JUnit.RendimentoBrutoTestes.gerarRendimentoBrutoTest" />
       <item itemvalue="JUnit.RendimentoBrutoTestes" />
       <item itemvalue="JUnit.ImpostoRendaTeste.gerarImpostoRendaTest" />
+      <item itemvalue="JUnit.ImpostoRendaTeste" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ImpostoRendaTeste" />
         <item itemvalue="JUnit.ImpostoRendaTeste.gerarImpostoRendaTest" />
         <item itemvalue="JUnit.RendimentoBrutoTestes" />
         <item itemvalue="JUnit.RendimentoBrutoTestes.gerarRendimentoBrutoTest" />
